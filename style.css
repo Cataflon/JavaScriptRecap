@@ -1,0 +1,19 @@
+body {
+  background: url('./photos/background.webp') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mosquito {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('mosquito.png') no-repeat center/contain;
+  cursor: pointer;
+}
+
+p{
+  font-size: 30px;
+  margin-left: 20px;
+}
